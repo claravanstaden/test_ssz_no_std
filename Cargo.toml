@@ -5,10 +5,7 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[lib]
-crate-type = ["cdylib"]
-
 [dependencies]
-wasm-bindgen = "0.2"
 ssz_rs = "0.7.0"
 ssz_rs_derive = "0.7.0"
+milagro_bls = { git = "https://github.com/sigp/milagro_bls", tag = "v1.4.2" }
